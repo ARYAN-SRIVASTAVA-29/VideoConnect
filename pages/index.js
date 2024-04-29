@@ -23,13 +23,13 @@ export default function Home() {
 
   return (
     <div className={styles.homeContainer}>
-      <h1>Google Meet Clone</h1>
+      <h1>Video Connect</h1>
       <div className={styles.enterRoom}>
         <input placeholder="Enter Room Id" value={roomId} onChange={(e) => setRoomId(e?.target?.value)}/>
         <button onClick={joinRoom}>Join Room</button>
       </div>
 
-      <span className={styles.separatorText}>---------------OR---------------</span>
+      <span className={styles.separatorText}>OR</span>
       <button onClick={createAndJoin}>Create a New Room</button>
       <span className="mt-2.5">&copy; Aryan Srivastava</span>
     </div>
