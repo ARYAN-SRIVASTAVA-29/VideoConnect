@@ -14,7 +14,7 @@
     box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.75);
   }
   
-  /* .icon {
+  .icon {
     @apply text-white absolute right-2 bottom-2;
   }
   
@@ -24,4 +24,4 @@
   
   .notPlaying {
     @apply flex items-center justify-center;
-  } */
+  }
